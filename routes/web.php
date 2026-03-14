@@ -6,7 +6,7 @@ use App\Http\Controllers\GrupoController;
 use App\Http\Controllers\MateriaController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/materias');
 });
 Route::resource('horarios', HorarioController::class);
 Route::resource('grupos', GrupoController::class);
