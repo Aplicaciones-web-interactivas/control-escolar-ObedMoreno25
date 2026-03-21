@@ -83,6 +83,16 @@
 
                     </a>
 
+                    <a href="{{ url('/inscripciones') }}"
+                        class="flex items-center space-x-2 hover:text-blue-500
+{{ request()->is('inscripciones*') ? 'text-blue-600 font-semibold' : '' }}">
+
+                        <i class="fa-solid fa-user-graduate"></i>
+
+                        <span>Inscripciones</span>
+
+                    </a>
+
                 </div>
 
             </div>

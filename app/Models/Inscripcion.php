@@ -10,7 +10,8 @@ class Inscripcion extends Model
 
     protected $fillable = [
         'grupo_id',
-        'usuario_id'
+        'usuario_id',
+        'calificacion'
     ];
 
     // Inscripción pertenece a grupo
