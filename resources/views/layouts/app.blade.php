@@ -92,7 +92,15 @@
                         <span>Inscripciones</span>
 
                     </a>
+                    <a href="{{ url('/tareas') }}"
+                        class="flex items-center space-x-2 hover:text-blue-500
+{{ request()->is('tareas*') ? 'text-blue-600 font-semibold' : '' }}">
 
+                        <i class="fa-solid fa-book-open"></i>
+
+                        <span>Tareas</span>
+
+                    </a>
                 </div>
 
             </div>
